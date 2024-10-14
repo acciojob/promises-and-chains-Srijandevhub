@@ -6,7 +6,7 @@ document.getElementById("ageForm").addEventListener("submit", function (event) {
   const age = document.getElementById("age").value;
 
   if (!name || !age) {
-    alert("Both fields are required.");
+    alert("Please enter valid details");
     return;
   }
 
